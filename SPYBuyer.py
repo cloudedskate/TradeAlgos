@@ -23,8 +23,6 @@ class MeasuredFluorescentPinkCow(QCAlgorithm):
         self.nextEntryTime = self.Time
 
 
-
-
     def OnData(self, data):
         if not self.spy in data:
             return
